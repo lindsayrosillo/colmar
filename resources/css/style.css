@@ -1,0 +1,42 @@
+/**Universal styles**/
+html {
+  font-size: 16px;
+  font-family: Helvetica;
+}
+
+header {
+  background-color: white;
+  height: 4rem;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  display: flex;
+  width: auto;
+}
+
+header .mobile {
+  display: none;
+}
+
+/**Navigation Styles**/
+header .desktop {
+  display: flex;
+}
+.desktop li {
+  list-style: none;
+}
+
+
+/**Main styles**/
+.start .container {
+  display: flex;
+  height: 16rem;
+}
+
+#startimage img {
+  height: 10rem;
+  width: auto;
+}
