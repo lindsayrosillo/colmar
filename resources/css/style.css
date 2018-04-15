@@ -1,7 +1,18 @@
 /**Universal styles**/
 html {
   font-size: 16px;
-  font-family: Helvetica;
+  font-family: Lato, sans-serif;
+  color: #35393a;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+html a {
+  color: darkgray;
 }
 
 header {
@@ -23,43 +34,237 @@ header .mobile {
   position: relative;
   top: 4rem;
 }
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
 /**Navigation Styles**/
+
 header .desktop {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.desktop img {
+  float: left;
+}
+
 header .desktop ul {
   display: flex;
 }
+
 .desktop li {
   list-style: none;
+  padding-right: 1rem;
 }
 
+#colmar {
+  color: black;
+  font-weight: bold;
+}
 
 /**Main styles**/
 .start  {
-  background-color: gray;
-  display: flex;
-  justify-content: center;
-  height: 20rem;
-  width: 100%;
+  background-color: lightgray;
 }
+
 .first {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 16rem;
-  width: 1280px;
 }
 
-.startimage {
-  height: 16rem;
-  width: 60rem;
-}
-
-.startimage img {
+.first img {
   height: auto;
   width: 60%;
+  padding: 2rem;
+}
+
+#starttext {
+  margin: 0;
+  width: 40%;
+  margin-left: 2rem;
+}
+
+#starttext h2 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+#starttext p {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+button {
+  background-color: #35393a;
+  color: lightgray;
+  font-size: 0.9rem;
+  border-radius: 1px;
+  height: 3rem;
+  width: 15rem;
+  padding: .5rem;
+}
+
+/**Practice section**/
+
+.practice-container {
+  display: flex;
+}
+
+.practice-banner {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.practice-banner img {
+  width: 100%;
+}
+
+.practice-side {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-top: 1.5rem;
+}
+
+.practice-sidebox {
+  display: flex;
+  align-items: center;
+  border: lightgray .09rem solid;
+}
+
+.practice-sidebox img {
+  width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+
+.practice-text a {
+  color: skyblue;
+}
+
+.practice-banner h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.practice-sidebox h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.practice-sidebox:hover {
+  background-color: darkgray;
+}
+
+
+/**Learn Section**/
+
+.learn {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  background-color: lightgray;
+}
+
+.section-title {
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: white;
+  margin: 1rem 1.5rem;
+}
+
+.course-image img {
+  width: 100%;
+}
+
+.course-description h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.course-description {
+  margin-left: 1rem;
+}
+
+.course-description p {
+  padding-bottom: 1rem;
+}
+
+/**Video Thesis Section**/
+.thesis {
+  display: flex;
+  margin-bottom: 3rem;
+  margin-left: 1.5rem;
+}
+
+.video-side {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.vid-banner {
+  padding: 2rem 1.5rem;
+}
+
+.vid-banner video {
+  width: 100%;
+}
+
+.vid-description {
+  padding-bottom: 2rem;
+}
+
+.thesis-side {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-top: 1.5rem;
+}
+
+.thesis-sidebox {
+  display: flex;
+  align-items: center;
+}
+
+.thesis-sidebox img {
+  width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+
+.thesis-text h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.vid-description h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.thesis-sidebox:hover {
+  background-color: darkgray;
 }
