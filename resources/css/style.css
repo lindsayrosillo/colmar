@@ -45,10 +45,21 @@ header .desktop {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 1.5rem;
 }
 
 .desktop img {
   float: left;
+}
+
+.logo p {
+  display: inline-block;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 
 header .desktop ul {
@@ -60,14 +71,18 @@ header .desktop ul {
   padding-right: 1rem;
 }
 
-#colmar {
+.desktop li a {
+  text-decoration: none;
+}
+
+#logo-text-black {
   color: black;
   font-weight: bold;
 }
 
 /**Main styles**/
 .start  {
-  background-color: lightgray;
+  background-color: #d3e9ed;
 }
 
 .first {
@@ -100,12 +115,12 @@ header .desktop ul {
 
 
 button {
-  background-color: #35393a;
-  color: lightgray;
+  background-color: #596D70;
+  color: #d3e9ed;
   font-size: 0.9rem;
   border-radius: 1px;
   height: 3rem;
-  width: 15rem;
+  width: 17rem;
   padding: .5rem;
 }
 
@@ -144,7 +159,7 @@ button {
 }
 
 .practice-text a {
-  color: skyblue;
+  color: #B4D6D2;
 }
 
 .practice-banner h2 {
@@ -160,8 +175,10 @@ button {
 }
 
 .practice-sidebox:hover {
-  background-color: darkgray;
+  background-color: #d3e9ed;
+  color: #596D70;
 }
+
 
 
 /**Learn Section**/
@@ -170,12 +187,13 @@ button {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-color: lightgray;
+  background-color:  #d3e9ed;
+  padding-bottom: 2rem;
 }
 
 .section-title {
   width: 100%;
-  padding: 2rem;
+  padding: 3rem;
   text-align: center;
   font-size: 2rem;
   font-weight: 900;
@@ -186,7 +204,7 @@ button {
   flex-direction: column;
   width: 25%;
   background-color: white;
-  margin: 1rem 1.5rem;
+  margin: 1rem;
 }
 
 .course-image img {
@@ -211,7 +229,7 @@ button {
 /**Video Thesis Section**/
 .thesis {
   display: flex;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   margin-left: 1.5rem;
 }
 
@@ -223,6 +241,7 @@ button {
 
 .vid-banner {
   padding: 2rem 1.5rem;
+  padding-bottom: 0;
 }
 
 .vid-banner video {
@@ -231,6 +250,7 @@ button {
 
 .vid-description {
   padding-bottom: 2rem;
+  margin-left: 2rem;
 }
 
 .thesis-side {
@@ -259,12 +279,33 @@ button {
 }
 
 .vid-description h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 900;
   padding-top: 2rem;
   padding-bottom: 1.5rem;
 }
 
 .thesis-sidebox:hover {
-  background-color: darkgray;
+  background-color: #d3e9ed;
+  color: #596D70;
+  }
+
+
+/**footer section**/
+
+footer ul {
+  float: right;
+  display: flex;
+}
+
+footer li {
+  padding-right: 1rem;
+}
+
+footer {
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: .8rem;
+  border-top: lightgray 0.09rem solid;
 }
