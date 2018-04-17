@@ -38,6 +38,7 @@ header .mobile {
   width: 100%;
   margin: 0 auto;
 }
+
 /**Navigation Styles**/
 
 header .desktop {
@@ -79,7 +80,7 @@ header .desktop ul {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 560px)  {
+@media only screen and (max-width: 660px)  {
   header .desktop {
     display: none;
    }
@@ -103,7 +104,7 @@ header .desktop ul {
   }
 }
 
-/**Main styles**/
+/**Start Here styles**/
 .start  {
   background-color: #d3e9ed;
 }
@@ -147,7 +148,17 @@ button {
   padding: .5rem;
 }
 
-@media only screen and (max-width: 560px) {
+button:hover {
+  background-color: white;
+  color: #596D70;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-style: groove;
+  transform: scale(0.9);
+  transition: all 0.9s ease-in-out;
+}
+
+@media only screen and (max-width: 660px) {
   .first img {
     width: 100%;
     padding: 0;
@@ -212,7 +223,7 @@ button {
 }
 
 .practice-text a {
-  color: #B4D6D2;
+  color: #596D70;
 }
 
 .practice-banner h2 {
@@ -236,7 +247,7 @@ button {
   display: none;
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 660px) {
   .practice-banner {
     display: none;
   }
@@ -313,11 +324,18 @@ button {
   padding-bottom: 1rem;
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 660px) {
   .course-image,
   .course-description p {
     display: none;
   }
+
+  .course:hover {
+    background-color: #596D70;
+    color: white;
+    transition: color 0.1s linear 0s;
+    transition: background-color 0.7s linear 0s;
+    }
 
   .course {
     width: 100%;
@@ -329,6 +347,7 @@ button {
 
   }
 }
+
 /**Video Thesis Section**/
 .thesis {
   display: flex;
@@ -353,7 +372,7 @@ button {
 
 .vid-description {
   padding-bottom: 2rem;
-  margin-left: 2rem;
+  margin: 0 1.5rem;
 }
 
 .thesis-side {
@@ -393,7 +412,7 @@ button {
   color: #596D70;
   }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 660px) {
   .vid-description,
   .thesis-side {
     display: none;
@@ -428,6 +447,7 @@ button {
 footer ul {
   float: right;
   display: flex;
+  background-color: #d3e9ed;
 }
 
 footer li {
@@ -435,6 +455,10 @@ footer li {
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
+  height: 3rem;
+  background-color: #d3e9ed;
   padding-top: 1rem;
   padding-left: 1.5rem;
   font-family: 'Source Sans Pro', sans-serif;
@@ -442,10 +466,10 @@ footer {
   border-top: lightgray 0.09rem solid;
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 660px) {
   footer {
     margin-top: 5rem;
-    height: 1.5rem;
+    height: 3.5rem;
   }
 
   footer ul {
