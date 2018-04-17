@@ -107,6 +107,12 @@ header .desktop ul {
 /**Start Here styles**/
 .start  {
   background-color: #d3e9ed;
+  box-shadow: 0 2px 2px 0 #caccce;
+}
+
+.start:hover {
+  box-shadow: 0 3px 3px 0px #cccdce;
+  transition: box-shadow 0.3s linear 0;
 }
 
 .first {
@@ -192,6 +198,12 @@ button:hover {
 
 .practice-container {
   display: flex;
+  box-shadow: 0 2px 2px 0 #caccce;
+}
+
+.practice-container:hover {
+  box-shadow: 0 3px 3px 0px #cccdce;
+  transition: box-shadow 0.3s linear 0;
 }
 
 .practice-banner {
@@ -303,6 +315,7 @@ button:hover {
   width: 25%;
   background-color: white;
   margin: 1rem;
+  box-shadow: 0 2px 2px 0 #caccce;
 }
 
 .course-image img {
@@ -324,6 +337,19 @@ button:hover {
   padding-bottom: 1rem;
 }
 
+.course:hover {
+  box-shadow: 0 4px 4px 3px #cccdce;
+}
+
+.courses {
+  box-shadow: 0 2px 2px 0 #caccce;
+}
+
+.courses:hover {
+  box-shadow: 0 3px 3px 0px #cccdce;
+  transition: box-shadow 0.3s linear 0;
+}
+
 @media only screen and (max-width: 660px) {
   .course-image,
   .course-description p {
@@ -339,12 +365,8 @@ button:hover {
 
   .course {
     width: 100%;
-  }
-
-  .course {
     margin: 0.5rem 1rem;
     padding: 0.5rem;
-
   }
 }
 
