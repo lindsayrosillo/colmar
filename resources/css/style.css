@@ -253,6 +253,8 @@ button:hover {
 .practice-sidebox:hover {
   background-color: #d3e9ed;
   color: #596D70;
+  box-shadow: 0 2px 2px 0 #caccce;
+  transition: box-shadow 0.3s linear 0;
 }
 
 .mobile-img {
@@ -345,7 +347,7 @@ button:hover {
   box-shadow: 0 2px 2px 0 #caccce;
 }
 
-.courses:hover {
+.courses:hover {   /*gives shadow to larger box**/
   box-shadow: 0 3px 3px 0px #cccdce;
   transition: box-shadow 0.3s linear 0;
 }
@@ -432,6 +434,8 @@ button:hover {
 .thesis-sidebox:hover {
   background-color: #d3e9ed;
   color: #596D70;
+  box-shadow: 0 2px 2px 0 #caccce;
+  transition: box-shadow 0.3s linear 0;
   }
 
 @media only screen and (max-width: 660px) {
